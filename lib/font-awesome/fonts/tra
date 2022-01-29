@@ -1,0 +1,12 @@
+local Library = {}
+
+ 
+function Library:Create(hi)	
+ 
+ 
+ 
+ 
+            game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(hi, 'All')
+            wait(.5)
+    end
+return Library;
